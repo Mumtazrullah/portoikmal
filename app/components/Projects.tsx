@@ -30,7 +30,7 @@ const projects: Project[] = [
   },
   {
     title: "Glamora",
-    desc: "Website statis bertema e-commerce dengan desain modern",
+    desc: "Website statis bertema e-commerce dengan desain modern dan minimalis.",
     image: "/project3.jpeg",
     tags: ["HTML","CSS","Javascript",],
     link: "#",
