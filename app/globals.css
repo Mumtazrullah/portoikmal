@@ -1,26 +1,48 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html { scroll-behavior: smooth; }
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --radius: 16px;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-gray-50 text-gray-900 dark:bg-gray-950 dark:text-gray-100 antialiased;
+}
+
+/* Subtle border on dark */
+.border-subtle {
+  @apply border border-gray-200 dark:border-white/10;
+}
+
+/* Fancy gradient text */
+.gradient-text {
+  @apply bg-gradient-to-r from-brand-500 via-cyan-400 to-blue-500 bg-clip-text text-transparent;
+}
+
+/* Glass card */
+.glass {
+  @apply bg-white/60 dark:bg-white/5 backdrop-blur-md border-subtle rounded-2xl shadow-soft;
+}
+
+/* Grid dots background utility */
+.bg-dots {
+  background-image: radial-gradient(currentColor 1px, transparent 1px);
+  background-size: 16px 16px;
+  opacity: .12;
+}
+
+.section {
+  @apply py-16 md:py-24;
+}
+
+/* 3D hover tilt minimal */
+.tilt {
+  transform-style: preserve-3d;
+}
+.tilt > * {
+  transform: translateZ(0.001px);
 }
