@@ -29,8 +29,7 @@ export default function Hero() {
             <span className="gradient-text">berdampak</span>.
           </h1>
           <p className="mb-8 text-gray-600 dark:text-gray-300">
-            Spesialis membuat antarmuka modern yang responsif, aksesibel, dan berperforma tinggi menggunakan Next.js dan ekosistemnya.
-          </p>
+            Mengembangkan antarmuka modern yang responsif, mudah diakses, dan memiliki performa tinggi dengan teknologi web terkini.          </p>
           <div className="flex flex-wrap gap-3">
             <a
               href="#projects"
