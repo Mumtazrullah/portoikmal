@@ -68,9 +68,9 @@ export default function Contact() {
             Tertarik bekerja sama? Kirim pesan atau email langsung.
           </p>
           <div className="mt-4 space-y-2 text-sm">
-            <p>Email: <a href="mailto:email@example.com" className="text-brand-500 hover:underline">email@example.com</a></p>
-            <p>LinkedIn: <a href="#" className="text-brand-500 hover:underline">linkedin.com/in/username</a></p>
-            <p>GitHub: <a href="#" className="text-brand-500 hover:underline">github.com/username</a></p>
+            <p>Email: <a href="mailto:anwarullahmumtaz404@gmail.com" className="text-brand-500 hover:underline">anwarullahmumtaz404@gmail.com</a></p>
+            <p>LinkedIn: <a href="linkedin.com/in/mumtazrullah" className="text-brand-500 hover:underline">linkedin.com/in/mumtazrullah</a></p>
+            <p>GitHub: <a href="github.com/mumtazrullah" className="text-brand-500 hover:underline">github.com/mumtazrullah</a></p>
           </div>
         </motion.div>
 
