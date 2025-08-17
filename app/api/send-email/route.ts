@@ -17,7 +17,7 @@ export async function POST(req: Request) {
     await transporter.sendMail({
       from: email,
       to: process.env.EMAIL_USER, // email tujuan (misalnya email kamu sendiri)
-      subject: `Portfolio Contact: ${name}`,
+      subject: `Pesan Contact dari Portofolio: ${name}`,
       text: message,
       html: `<p><strong>Nama:</strong> ${name}</p>
              <p><strong>Email:</strong> ${email}</p>
