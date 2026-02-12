@@ -17,7 +17,7 @@ export default function About() {
           </p>
           <div className="mt-6 grid grid-cols-2 gap-3">
             <Stat label="Pengalaman" value="&plusmn;1 tahun" />
-            <Stat label="Proyek" value="1+ selesai" />
+            <Stat label="Proyek" value="5+ selesai" />
             <Stat label="Kepuasan" value="100%" />
             <Stat label="Respon" value="<24 jam" />
           </div>

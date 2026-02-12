@@ -69,8 +69,7 @@ export default function Contact() {
           </p>
           <div className="mt-4 space-y-2 text-sm">
             <p>Email: <a href="mailto:anwarullahmumtaz404@gmail.com" className="text-brand-500 hover:underline">anwarullahmumtaz404@gmail.com</a></p>
-            <p>LinkedIn: <a href="linkedin.com/in/mumtazrullah" className="text-brand-500 hover:underline">linkedin.com/in/mumtazrullah</a></p>
-            <p>GitHub: <a href="github.com/mumtazrullah" className="text-brand-500 hover:underline">github.com/mumtazrullah</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/mumtazrullah" className="text-brand-500 hover:underline">linkedin.com/in/mumtazrullah</a></p>
           </div>
         </motion.div>
 

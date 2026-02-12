@@ -21,7 +21,7 @@ export default function Hero() {
           className="order-2 md:order-1"
         >
           <p className="mb-3 text-sm uppercase tracking-widest text-gray-500 dark:text-gray-400">
-            Future Full Stack Web Developer
+            Junior Web Programmer
           </p>
           <h1 className="mb-4 text-4xl font-bold md:text-5xl">
             Bangun pengalaman web yang <span className="gradient-text">cepat</span>,{" "}
